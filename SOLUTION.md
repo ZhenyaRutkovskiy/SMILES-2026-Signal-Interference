@@ -16,7 +16,7 @@ Python 3.9+ is recommended. No GPU required.
 python applicant_solution.py
 ```
 
-To achieve best result you need to wait ~7 minutes for the code to run, i have photo of best result in repo.
+To achieve best result you need to wait ~20 minutes for the code to run, i have photo of best result in repo.
 
 This will:
 1. Download `challenge.mat` from Google Drive automatically via `gdown`.
