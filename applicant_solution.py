@@ -21,7 +21,7 @@ DATA_FILE = "challenge.mat"
 if not os.path.exists(DATA_FILE):
     import gdown
     url = "https://drive.google.com/file/d/1BBHVSI4KB-B8OX46eN1Nm4ARCeq6Rui4/view?usp=sharing"
-    gdown.download(url, DATA_FILE, quiet=False, fuzzy=True)
+    gdown.download(url, DATA_FILE, quiet=False)
 else:
     print(f"{DATA_FILE} уже скачан, пропускаем.")
 
